@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="49747" started-at="2019-06-20T11:30:43Z" finished-at="2019-06-20T11:31:33Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="49747" started-at="2019-06-20T11:30:43Z" finished-at="2019-06-20T11:31:33Z">
+      <class name="TestCase">
+        <test-method status="PASS" signature="trayTitle()[pri:1, instance:TestCase@6ea6d14e]" name="trayTitle" duration-ms="21837" started-at="2019-06-20T11:30:43Z" finished-at="2019-06-20T11:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trayTitle -->
+        <test-method status="PASS" signature="login()[pri:2, instance:TestCase@6ea6d14e]" name="login" duration-ms="3193" started-at="2019-06-20T11:31:05Z" depends-on-methods="TestCase.trayTitle" finished-at="2019-06-20T11:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="HomePageValidityOnLogin()[pri:3, instance:TestCase@6ea6d14e]" name="HomePageValidityOnLogin" duration-ms="3999" started-at="2019-06-20T11:31:08Z" finished-at="2019-06-20T11:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageValidityOnLogin -->
+        <test-method status="PASS" signature="loginTray()[pri:4, instance:TestCase@6ea6d14e]" name="loginTray" duration-ms="20702" started-at="2019-06-20T11:31:12Z" depends-on-methods="TestCase.login" finished-at="2019-06-20T11:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTray -->
+        <test-method status="PASS" signature="comparision()[pri:5, instance:TestCase@6ea6d14e]" name="comparision" duration-ms="1" started-at="2019-06-20T11:31:33Z" finished-at="2019-06-20T11:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparision -->
+      </class> <!-- TestCase -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
